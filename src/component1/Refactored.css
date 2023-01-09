@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.main-nav{
+    display: grid;
+    width: 100%;
+    height: 8rem;
+    border-radius: 10px;
+    grid-template-columns: 10rem 1fr 3fr 1fr 10rem;
+    background-color: rgb(188, 187, 186);
+    box-shadow: 10px -5px 10px 7px ;
+   
+    
+}
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.menu-link{
+    grid-column: 3/4;
+}
+
+.menu-link ul{
+    height:8rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 50px;
+   }
+
+.menu-link ul li{
+    list-style: none;
+}  
+.menu-link ul  li a{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: black;
+   border-radius: 20px;
+   font-size: 1.4rem;
+   display: flex;
+   
+}
+.menu-link ul  li a:hover{
+    color: rgb(3, 24, 247);
+}
+.profile{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    height: 8rem;
+}
+.profile a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+   
+}
+/* .main-home{
+    display: grid;
+    width: 100%;
+    margin: 50x auto;
+    margin: 20px;
+    grid-template-rows:60px 100px 200px 60px ;
+    grid-template-columns: repeat(3,1fr) 150px;
+} */
+.header{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.home1{
+    display: grid;
+     grid-column: 1/-1;
+     grid-row: 2;
+     height: 100%;
+
+      
+}
+.home1 ul{
+    
+    display: grid;
+    grid-column: 4/5;
+    display: flex;
+    grid-column-gap:50px ;
+   
+}
+.home1 ul button{
+   width: 75px;
+   height: 30px;
+   border-radius: 8px;
+  
+   background-color: transparent;
+   text-transform: capitalize;
+   outline: none;
+   border: none;
+}
+.btn{
+    color: rgb(68, 12, 210);
+    font-weight: 700;
+    font-size: 13px;
+}
+.btn1{
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+}
+
